@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('list-all', [AddressBookController::class, 'listAll']);
+Route::get('showtestpage',[AddressBookController::class, 'showtestpage']);

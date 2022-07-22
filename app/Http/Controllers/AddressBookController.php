@@ -14,4 +14,9 @@ class AddressBookController extends Controller
         print("<pre>".print_r($data,true)."</pre>");
 
     }
+
+    public function showtestpage()
+    {
+        return view('showtestpage');
+    }
 }
