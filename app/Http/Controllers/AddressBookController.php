@@ -9,7 +9,6 @@ class AddressBookController extends Controller
 
     public function listAll() {
 
-        // $addressBook = new AddressBook;
         $data = AddressBook::findAll();
         print("<pre>".print_r($data,true)."</pre>");
 
